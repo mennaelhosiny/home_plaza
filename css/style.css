@@ -1580,4 +1580,8 @@ a:focus {
   video{
     width: 360px;
   }
+  .navbar-brand img{
+    width: 80px;
+    height: 80px;
+  }
 }
