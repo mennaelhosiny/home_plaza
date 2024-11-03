@@ -589,7 +589,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 10px;
-  background-image: url(../images/12.png);
+  background-image: url(../images/12.webp);
   background-size: 100% 100%;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -608,7 +608,7 @@ a:focus {
 }
 
 .feature_section .box:hover .number_box {
-  background-image: url(../images/12.png);
+  background-image: url(../images/12.webp);
   color: #ffffff;
 }
 .feature_section  .number_box {
@@ -900,7 +900,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(../images/14.png);
+  background-image: url(../images/14.webp);
   background-size: 100% 100%;
   right: 25%;
 }
@@ -914,7 +914,7 @@ a:focus {
   left: 45%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background-image: url(../images/13.png);
+  background-image: url(../images/13.webp);
   background-size: 100% 100%;
   opacity: 0;
   -webkit-transition: all .3s;
@@ -1236,8 +1236,11 @@ a:focus {
 }
 
 .client_section {
-  background-image: url(../images/15.png);
+  background-image: url(../images/15.webp);
   background-size: cover;
+}
+.owl-item {
+  height: 260px !important;
 }
 
 .client_section .heading_container {
@@ -1423,6 +1426,7 @@ a:focus {
 .info_section {
   background-color: hsl(2.4deg 78.13% 12.55%);
   color: #ffffff;
+  direction: rtl;
 }
 
 .info_section h4 {
@@ -1438,6 +1442,7 @@ a:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  direction: rtl;
 }
 
 .info_section .info_contact .contact_link_box a {
@@ -1446,7 +1451,7 @@ a:focus {
 }
 
 .info_section .info_contact .contact_link_box a i {
-  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .info_section .info_contact .contact_link_box a:hover {
@@ -1458,6 +1463,7 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
+  direction: rtl;
 }
 
 .info_section .info_social a {
@@ -1501,10 +1507,11 @@ a:focus {
           align-items: center;
   margin-bottom: 15px;
   color: #ffffff;
+  direction: rtl;
 }
 
 .info_section .info_links a img {
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .info_section .info_links a:hover, .info_section .info_links a.active {
@@ -1581,10 +1588,17 @@ a:focus {
     width: 100%;
   }
   .navbar-brand img{
-    width: 100%;
-    height: 55px;
+    width:80px;
+    height: 60px;
   }
   .help_section .img-box:before{
     left: 50%;
+  }
+  .owl-item {
+    height: auto !important;
+  }
+  .img-footer{
+     margin-right: 0 !important;
+     margin-top: 0 !important;
   }
 }
